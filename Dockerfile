@@ -11,6 +11,8 @@ RUN npm install
 
 ENV PORT=80
 
+ENV TEST_ENV =local
+
 EXPOSE 80
 
 ENTRYPOINT ["npm","run","prod"]
